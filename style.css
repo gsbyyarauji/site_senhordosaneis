@@ -15,3 +15,18 @@
 .rodape{
     text-align: center;
 }
+body{
+    background-color: #000;
+    color: rgb(rgb(197, 152, 152), green, blue);
+    font-family: "roboto",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 100;
+    text-transform: none;
+    text-decoration: none;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-indent: 15px;
+    text-align: justify;
+}
