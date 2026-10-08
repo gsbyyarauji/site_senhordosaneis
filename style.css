@@ -46,7 +46,7 @@ body{
     
 }
    #teste-gradient{
-    background-image: linear-gradient(to right,#663EDB,#C33995,#F24A43,#EE7830,#ED9554));
+    background-image: radial-gradient(circle,#663EDB,#C33995,#F24A43,#EE7830,#ED9554));
     color: rgb(0, 0, 0);
     height: 300px;
    }
