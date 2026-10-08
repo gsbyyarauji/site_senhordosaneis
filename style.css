@@ -10,7 +10,10 @@
 }
 
 #layout{
-    display:flex;
+    font-size: irem;
+    border: groove 30px red;
+    border-bottom: solid 12px green;
+    border-radius: 10px 50px 100px 200px;
 }
 .rodape{
     text-align: center;
