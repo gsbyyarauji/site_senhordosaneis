@@ -11,15 +11,22 @@
 
 #layout{
     font-size: irem;
-    border: groove 30px red;
-    border-bottom: solid 12px green;
-    border-radius: 10px 50px 100px 200px;
+    border: groove 30px rgba(33, 87, 17, 0.425);
+    border-bottom: groove 12px rgba(28, 112, 28, 0.555);
+    border-radius: 15px 15px 15px 15px;
+    margin: 35px;/*define a margem fora da borda*/
+    /*margin: auto; define a margem de forma automatica porem so funciona apeneas quando tenho uma largura definida*/
+    padding: 15px 25px;
+    /*padding-top
+    padding-right
+    padding-bottom
+    padding-left*/
 }
 .rodape{
     text-align: center;
 }
 body{
-    background-color: #000;
+    background-color: #fff0d5;
     color: rgb(rgb(233, 0, 0), green, blue);
     font-family: "roboto",sans-serif;
     font-size: 16px;
@@ -32,4 +39,9 @@ body{
     letter-spacing: 1px;
     text-indent: 15px;
     text-align: justify;
+}
+.teste_display{
+    background-color: rgba(202, 183, 162, 0.795);
+    display: inline;
+    background-image:image();
 }
