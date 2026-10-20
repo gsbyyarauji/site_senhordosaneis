@@ -62,7 +62,7 @@ body{
      list-style-type: circle;
      list-style-image: url('img/seta_direita_vermelha.png');
    }
-   #impacto{ 
+   #impacto{
    
       background-image: url('img/senhordosaneis_fundo.jpg');
       background-attachment: fixed;/*comportamento da imagem*/
@@ -70,3 +70,18 @@ body{
       background-size: cover;/*largura e altura, da pra por em px tbm e em %*/
 
    }
+  
+   .um{
+    background-color: #663EDB;
+    text-shadow: 2px 2px 2px #F24A43;
+    box-shadow:2px 2px 2px black;/*sombra da caixa por fora da caixa*/
+    inset: 3px 4px 2px green; /*cria sombra dentro da caixa*/
+
+   }
+  .dois{
+    background-color:#2F4F2F ;
+
+  }
+  .tres{
+    background-color: #C33995;
+  }
