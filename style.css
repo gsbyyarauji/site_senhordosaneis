@@ -50,3 +50,23 @@ body{
     color: rgb(0, 0, 0);
     height: 300px;
    }
+   li{
+     border: 2px solid orange
+   }
+   #teste_ol {
+    list-style-position: outside; /* position das linha que contorna a lista*/
+    list-style-type: lower-greek;  /*tipo de marcador*/
+   }
+   #teste_ul{
+     list-style-position: inside;
+     list-style-type: circle;
+     list-style-image: url('img/seta_direita_vermelha.png');
+   }
+   #impacto{ 
+   
+      background-image: url('img/senhordosaneis_fundo.jpg');
+      background-attachment: fixed;/*comportamento da imagem*/
+      background-repeat: no-repeat;/*repetir ou nn a imagem do fundo*/
+      background-size: cover;/*largura e altura, da pra por em px tbm e em %*/
+
+   }
