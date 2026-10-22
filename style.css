@@ -49,6 +49,7 @@ body{
     background-image: radial-gradient(circle,#663EDB,#C33995,#F24A43,#EE7830,#ED9554);
     color: rgb(0, 0, 0);
     height: 300px;
+<<<<<<< Updated upstream
    }
    li{
      border: 2px solid orange
@@ -85,3 +86,7 @@ body{
   .tres{
     background-color: #C33995;
   }
+=======
+    cursor:crosshair
+   }
+>>>>>>> Stashed changes
