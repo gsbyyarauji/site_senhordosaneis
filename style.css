@@ -49,7 +49,6 @@ body{
     background-image: radial-gradient(circle,#663EDB,#C33995,#F24A43,#EE7830,#ED9554);
     color: rgb(0, 0, 0);
     height: 300px;
-<<<<<<< Updated upstream
    }
    li{
      border: 2px solid orange
@@ -86,7 +85,80 @@ body{
   .tres{
     background-color: #C33995;
   }
-=======
-    cursor:crosshair
+  nav a{
+    color:white;
+    text-decoration: none;
+
+  }
+  nav a:hover{
+    color: black;
+    opacity: 0.5;/*da transparencia de 0 a 1*/
+
+  }
+  #email:focus{
+    background-color: green;
+    color: white    
+  }
+  .transicao{
+    width: 400px;
+    height: 300px;
+    border: solid 4px orange;
+    background-color: white;
+    color: black;
+    transition-property:all;/*width,background*/
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transition-timing-function:ease-in-out ;
+  }
+   .transicao:hover{
+    width: 800px;
+    background-color:pink;
+    border: 5px solid red;
+    color: blue;
+    font-weight: bolder;
    }
->>>>>>> Stashed changes
+   h1{
+    animation-name: multicolor;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+   }
+   @keyframes cores{
+    from{background-color:red;}
+    to{background-color: blue;}
+   }
+   @keyframes multicolor{
+    0%{
+        color: black
+    }
+    25%{
+        color: red
+    }
+    50%{
+        color:pink
+    }
+    75%{
+        color:green
+    }
+    100%{
+        color:yellow
+    }
+   
+   }
+   .animacao  img{
+    display: block;
+    animation: foguete;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes foguete{
+      0%{margin-left: 0%; transform: rotate(0deg);}
+      25%{
+        transform: rotate(0deg);
+        margin-left: 80%;
+      }
+      50%{margin-left: 80%; transform: rotate(-120deg);}
+      75%{margin-left: 0%; transform: rotate(-120deg);}
+      100%{margin-left: 0%; transform: rotate(0deg);}
+   }
